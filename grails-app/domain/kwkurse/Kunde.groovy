@@ -1,7 +1,8 @@
 package kwkurse
 
-class Kunde {
+class Kunde extends PersonRolle  {
 
+    static hasMany = { teilnahme : KursTeilnahme }
     static constraints = {
     }
 }
