@@ -2,7 +2,7 @@ package kwkurse
 
 class PersonRolle {
 
-    person Person
+    Person person
  
     static constraints = {
     }
